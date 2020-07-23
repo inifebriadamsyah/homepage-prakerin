@@ -3696,7 +3696,7 @@ h3 {
     position: absolute;
     left: 0;
     top: 0;
-    height: 150px;
+    height: 100%;
     width: 100%;
     background: #00b345;
     opacity: 0.3;
