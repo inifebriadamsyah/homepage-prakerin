@@ -1830,7 +1830,7 @@ h3 {
 /* line 8, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slider.scss */
 
 .slider_area .single_slider {
-    height: 720px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -2659,7 +2659,7 @@ h3 {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background: rgba(60, 199, 143, 0.06);
+    background: rgba(68, 173, 131, 0.075);
     position: relative;
     z-index: 0;
 }
@@ -2677,6 +2677,8 @@ h3 {
     .footer .footer_top {
         padding-top: 60px;
         padding-bottom: 30px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
 
@@ -2691,16 +2693,16 @@ h3 {
 /* line 18, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_footer.scss */
 
 .footer .footer_top .footer_widget .address_text {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #7a7b7c;
-    line-height: 30px;
+    line-height: 28px;
 }
 
 @media (max-width: 767px) {
     /* line 16, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_footer.scss */
     .footer .footer_top .footer_widget {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 }
 
@@ -3478,6 +3480,7 @@ h3 {
     /* line 2, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_reason.scss */
     .reson_area .single_reson {
         margin-bottom: 50%;
+        margin-right: auto;
     }
 }
 
@@ -3826,6 +3829,66 @@ h3 {
     left: -25px;
 }
 
+@media (max-width: 767px) {
+    .popular_causes_area .alur_image_upper1 {
+        position: relative;
+        z-index: -1;
+        margin-bottom: 40px;
+        left: -25px;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .popular_causes_area .alur_image_upper2 {
+        position: relative;
+        z-index: -1;
+        margin-bottom: 40px;
+        left: -25px;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .popular_causes_area .alur_image_upper3 {
+        position: relative;
+        z-index: -1;
+        margin-bottom: 40px;
+        left: -25px;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .popular_causes_area .alur_image_upper4 {
+        position: relative;
+        z-index: -1;
+        margin-bottom: 40px;
+        left: -25px;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .popular_causes_area .alur_image_upper5 {
+        position: relative;
+        z-index: -1;
+        margin-bottom: 40px;
+        left: -25px;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .popular_causes_area .alur_image_upper6 {
+        position: relative;
+        z-index: -1;
+        margin-bottom: 40px;
+        left: -25px;
+        margin-left: 70px;
+    }
+}
+
 
 /* line 32, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_causes.scss */
 
@@ -3849,6 +3912,7 @@ h3 {
         height: 40px;
         line-height: 40px;
         font-size: 15px;
+        margin-left: 10rem;
     }
 }
 
@@ -8503,7 +8567,7 @@ h6 {
 }
 
 .single-features-area h6 {
-    font-size: 18px;
+    font-size: 16px;
     color: #4f4f4f;
     margin-bottom: 0;
     font-family: "Oswald", sans-serif;
@@ -8695,7 +8759,7 @@ h6 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 60px;
     flex: 0 0 60px;
-    max-width: 60px;
+    max-width: 100px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -8723,7 +8787,7 @@ h6 {
     color: #4f4f4f;
     padding-top: 20px;
     line-height: 150%;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .single-service-area .text p {
@@ -9032,7 +9096,7 @@ h6 {
 .our_facilitics_area .single_feature {
     background: #fff;
     box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.1);
-    padding: 32px 20px 32px 20px;
+    padding: 32px 32px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 16px;
@@ -9041,14 +9105,14 @@ h6 {
 @media (max-width: 767px) {
     /* line 40, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_facilites.scss */
     .our_facilitics_area .single_feature {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     /* line 40, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_facilites.scss */
     .our_facilitics_area .single_feature {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 }
 
